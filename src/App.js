@@ -2,6 +2,7 @@ import './App.css';
 import Loaders from './components/Loaders';
 import BorderHoverButton from './components/BorderHoverButton';
 import BottomBarNavigation from './components/BottomBarNavigation';
+import HamburgerMenu from './components/HamburgerMenu';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Loaders />
       <BorderHoverButton />
       <BottomBarNavigation />
+      <HamburgerMenu />
     </div>
   );
 }
