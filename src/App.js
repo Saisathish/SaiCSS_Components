@@ -4,6 +4,7 @@ import BorderHoverButton from './components/BorderHoverButton';
 import BottomBarNavigation from './components/BottomBarNavigation';
 import HamburgerMenu from './components/HamburgerMenu';
 import CardHover from './components/CardHover';
+import MenuDropdownComplex from './components/MenuDropdownComplex';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BottomBarNavigation />
       <HamburgerMenu />
       <CardHover />
+      <MenuDropdownComplex />
     </div>
   );
 }
