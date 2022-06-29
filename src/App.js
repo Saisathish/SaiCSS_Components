@@ -5,6 +5,7 @@ import BottomBarNavigation from './components/BottomBarNavigation';
 import HamburgerMenu from './components/HamburgerMenu';
 import CardHover from './components/CardHover';
 import MenuDropdownComplex from './components/MenuDropdownComplex';
+import Shapes from './components/Shapes';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HamburgerMenu />
       <CardHover />
       <MenuDropdownComplex />
+      <Shapes />
     </div>
   );
 }
